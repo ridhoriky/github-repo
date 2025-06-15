@@ -2,7 +2,7 @@ import { useState } from "react";
 import { fetchUserRepos } from "../store/reducers/repo";
 import { useAppDispatch, useAppSelector, type RootState } from "../store/store";
 import ListItemCard from "./ListItemCard";
-import ReposContent from "./RepoCOntent";
+import ReposContent from "./ReposContent";
 import ErrorState from "./ErrorState";
 import { fetchUsers } from "../store/reducers/user";
 
