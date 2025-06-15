@@ -55,6 +55,7 @@ export const fetchUsers = createAsyncThunk(
     try {
       const response = await octokit.request("GET /search/users", {
         q: `${q}`,
+        per_page: 5,
         headers: {
           "X-GitHub-Api-Version": "2022-11-28",
         },
