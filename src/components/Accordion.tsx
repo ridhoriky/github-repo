@@ -43,7 +43,7 @@ const Accordion = () => {
   };
 
   return (
-    <div className="space-y-2 bg-white rounded-lg shadow-md px-4 relative">
+    <div className="space-y-2 bg-white rounded-lg shadow-md px-4 relative pb-4">
       <div className="sticky top-0 z-10 bg-white py-4">
         Showing users for "{userSearch}"
       </div>
